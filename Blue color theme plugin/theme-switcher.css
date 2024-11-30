@@ -1,0 +1,32 @@
+/* Light Theme */
+body.light-theme {
+    background-color: #ffffff;
+    color: #030029;
+}
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #030029;
+    color: #ffffff;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #016999;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.theme-toggle:hover {
+    background-color: #015380;
+}
+
+.position {
+    text-align: center;
+}
